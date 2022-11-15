@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book List</title>
+    </head>
+    <body>
+        <!-- Create the Navigation bar using an unindexed list. CSS is used to adjust the size, position and background color of the navbar.-->
+        <nav class="navbar" style="float: left; width: 20%; min-height: 100vh; background-color: grey;">
+            <ul style="padding-top: 65%; padding-left: 25%; list-style-type: none;">
+                <li><a href="index.html"><h1>Homepage</h1></a></li>
+                <li><a href=book-list.html><h1>Books</h1></a></li>
+            </ul>
+        </nav>
+        <!-- Create another container and place it on the right side of the navigation bar.-->
+        <div class="main" style="float: right; width: 80%; min-height: 100vh;">
+            <!-- Inside a nested container add the images of the three books. Use <a href> tags to set the images and accompanying text to become links.-->
+            <div style="margin: 5%;">
+            <a href="book1.html"><img src="AtomicHabits.jpg" alt="Atomic Habits" style="width:10%; vertical-align: middle;"></a>&nbsp
+            <span><a href="book1.html">Atomic Habits by James Clear</a></span><br><br>
+            <a href="book2.html"><img src="Frankenstein.jpg" alt="Frankenstein" style="width: 10%;  vertical-align: middle"></a>&nbsp
+            <span><a href="book2.html">Frankenstein by Mary Shelley</a></span><br><br>
+            <a href="book3.html"><img src="MazeRunner.jpg" alt="Maze Runner" style="width: 10%;  vertical-align: middle"></a>&nbsp
+            <span><a href="book3.html">The Maze Runner by James Dashner</a></span>
+            </div>
+        </div>
+    </body>
+</html>
